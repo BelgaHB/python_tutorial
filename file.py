@@ -5,6 +5,7 @@ def main():
             "you are not well came here")
     A.close()
 
+    ## I added a comment
     rf=open("t1.text","r")
     for line in rf:
         print(line)
