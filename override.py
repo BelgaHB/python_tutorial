@@ -7,6 +7,10 @@ class oowm (op):
         z=n1*n2
         print("mull =",z)
 
+    def sum(self, n1, n2):
+         z=n1+n2+5
+         print("sum =", z)
+
 
 def main():
     o=oowm()
