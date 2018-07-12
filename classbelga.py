@@ -1,11 +1,15 @@
-class home:
-    def __init__(self,name):
-        self._name=name
+import self
+
+
+class person:
+    def __init__(self,**kwargs):
+        self.data= kwargs
+
     def getname(self):
-        print("name is",self._name)
+    print("name1" ,self.data["name"])
 
 def main():
-    myhome=home("belga")
+    myhome=person(name="belga",age=24, work= "student")
     myhome.getname()
 
 
